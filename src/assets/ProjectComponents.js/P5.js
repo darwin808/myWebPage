@@ -24,7 +24,7 @@ function P5() {
         </p>
       </div>
       <div className="links has-text-right mb-4 mt-6">
-        <a href="">
+        <a href="https://github.com/darwin808/myWebPage">
           <i className="fab fa-github  fa-lg" id="profile-links"></i>
         </a>
 
