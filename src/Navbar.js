@@ -49,6 +49,10 @@ const Navbar = () => {
     history.push("/");
   };
 
+  const DLCV = () => {
+    window.location.href =
+      "https://firebasestorage.googleapis.com/v0/b/main-ecom1.appspot.com/o/Darwin%20Apolinario%20CV%20(1).docx?alt=media&token=5a773af7-d2f3-4f1f-95f9-bb09558c5457";
+  };
   return (
     <nav class="navbar is-transparent mt-6 mr-6 ml-6" id="navbar">
       <div class="navbar-brand">
@@ -58,7 +62,7 @@ const Navbar = () => {
           </h1>
         </a>
 
-        <a
+        {/* <a
           role="button"
           class="navbar-burger"
           aria-label="menu"
@@ -66,7 +70,7 @@ const Navbar = () => {
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
-        </a>
+        </a> */}
 
         <AnimatePresence>
           <motion.svg
@@ -222,6 +226,7 @@ const Navbar = () => {
             </Link>
 
             <motion.button
+              onClick={DLCV}
               initial={{ y: -30, opacity: 0 }}
               animate={{
                 y: 0,
@@ -241,6 +246,9 @@ const Navbar = () => {
               transition={{ type: "spring", stiffness: 500 }}
               className="button ml-6"
               id="button1">
+              {/* <a href="https://firebasestorage.googleapis.com/v0/b/main-ecom1.appspot.com/o/Darwin%20Apolinario%20CV%20(1).docx?alt=media&token=5a773af7-d2f3-4f1f-95f9-bb09558c5457">
+                Resume
+              </a> */}
               Resume
             </motion.button>
           </div>

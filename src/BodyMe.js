@@ -129,10 +129,6 @@ export default function BodyMe() {
                 type: "spring",
                 stiffness: 30,
               },
-            }}
-            whileHover={{
-              y: [-5, 0],
-              color: "#64ffda",
             }}>
             <a href="https://github.com/darwin808">
               <i class="fab fa-github fa-2x ml-6 mr-6"></i>
@@ -149,10 +145,6 @@ export default function BodyMe() {
                 type: "spring",
                 stiffness: 30,
               },
-            }}
-            whileHover={{
-              y: [-5, 0],
-              color: "#64ffda",
             }}>
             <a href="https://www.instagram.com/darwinnn.nnn/">
               <i class="fab fa-instagram fa-2x mr-6"></i>
@@ -169,10 +161,6 @@ export default function BodyMe() {
                 type: "spring",
                 stiffness: 30,
               },
-            }}
-            whileHover={{
-              y: [-5, 0],
-              color: "#64ffda",
             }}>
             <a href="https://twitter.com/darwinnn_n">
               {" "}
@@ -190,11 +178,6 @@ export default function BodyMe() {
                 type: "spring",
                 stiffness: 30,
               },
-            }}
-            whileHover={{
-              y: [-5, 0],
-
-              // scale: 1.2,
             }}>
             <a href="https://www.linkedin.com/in/darwin-apolinario-35b084114/">
               <i class="fab fa-linkedin fa-2x mr-6"></i>
