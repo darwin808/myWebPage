@@ -1,0 +1,218 @@
+#BodyMe-container{
+    display: flex;
+    flex-direction: column;
+    
+    /* font-family: 'Playfair Display', serif; */
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Ubuntu Mono', monospace; */
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    height: 100vh;
+
+}
+#DDDD{
+    color: #64ffda;
+}
+
+#Navlinks,#navbar{
+    /* font-family: 'Playfair Display', serif; */
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Ubuntu Mono', monospace; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: white;
+}
+
+.App{
+    background-color: rgb(10,25,47);
+}
+
+
+
+/* #BodyMe-container{
+    margin-top: 15rem;
+    
+} */
+
+.head0{
+    color: #64ffda;
+    font-size: 20px;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.head1 {
+    color: rgb(204,214,246);
+    font-size: 5rem;
+}
+
+.head2,.head3{
+   color:  rgb(136,146,176);
+   font-size: 3rem;
+}
+
+#LeftBody{
+    margin-top: 15rem;
+}
+
+/* #socialMedia{
+    height: 30px;
+} */
+
+#socialMedia{
+    
+display: flex;
+justify-content: space-between;
+}
+
+.leflinks{
+    display: flex;
+    justify-content: space-between
+}
+
+
+.button,#button1{
+    border: 2px solid #64ffda;
+    background-color: transparent;
+    color: #64ffda;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 35px;
+}
+
+
+#button2{
+    border:none;
+    background-color: transparent;
+    color: #64ffda;
+    padding: 14px 28px;
+    font-size: 5rem;
+    cursor: pointer;
+    border-radius: 35px;
+}
+
+.button:hover ,#button1:hover{
+    border: 2px solid #64ffda;
+    color: #64ffda;
+}
+
+
+
+
+
+/* header .pizza-svg  */
+
+header .pizza-svg {
+  
+    width: 80px;
+    overflow: visible;
+    stroke: #64ffda;
+    stroke-width: 3;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
+
+  #pizzacenter{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%); 
+  }
+
+
+
+#project-container{
+    background-color: rgb(10,25,47);
+   
+}
+
+#projectLink{
+    text-decoration: none;
+    /* color:rgb(129,139,168); */
+    color: whitesmoke;
+}
+
+.card{
+    background-color: rgb(23,42,69);
+    height: 100%;
+    /* font-family: 'Ubuntu Mono', monospace; */
+ 
+ 
+}
+ #projTitle{
+    color: #CCD6F6;
+    font-family: 'Montserrat', sans-serif;
+ 
+}
+
+
+
+#projDesc{
+    color: #A8B2D1;
+    font-family: 'Ubuntu Mono', monospace;
+  
+}
+
+
+ #toolsused{
+    color: #A8B2D1;
+    font-family: 'Ubuntu Mono', monospace;
+  
+}  
+
+
+#profile-links{
+    text-decoration: none;
+    color: white;
+}
+
+
+#profile-links:hover{
+color: #64ffda;
+}
+
+#arrow {
+  
+    width: 80px;
+    overflow: visible;
+    stroke: #64ffda;
+    stroke-width: 15;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+   
+  }
+
+
+  #arrowname,#myname,#frontend{
+    
+    color: #64ffda;
+    cursor: pointer;
+  }
+
+  #techisusename{
+    font-family: 'Ubuntu Mono', monospace;
+    color: rgb(136,146,176);
+  }
+
+  #aboutP1{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(136,146,176);
+  }
+
+  #aboutitle,#projectName{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(204,214,246);
+  }
+#aboutitle:hover,#projectName:hover{
+    color: #64ffda;
+    cursor: pointer;
+}
+
+.techname2:hover{
+    color: #64ffda;
+    cursor: pointer;
+}
+
+

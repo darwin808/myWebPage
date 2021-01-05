@@ -1,0 +1,19 @@
+
+*{
+  margin:0;padding: 0; box-sizing: border-box;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(136,146,176);
+}
+
+a:hover{
+  color: #64ffda;
+ 
+}
