@@ -219,3 +219,26 @@ color: #64ffda;
 }
 
 
+.pizza-svg1{
+    display: block;
+    width: 80px;
+    overflow: visible;
+    stroke: #64ffda;
+    stroke-width: 3;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+}
+
+.navbar-brand{
+    display: flex;
+}
+#navcontainer{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar-menu {
+    background-color:  rgb(10,25,47);
+    
+ }

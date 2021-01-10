@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Navbar from "./Navbar";
 import { motion } from "framer-motion";
 import SvgContainer from "./SvgContainer";
+import Navbarv2 from "./Navbarv2";
 
 export default function BodyMe() {
   const containerVariant = {
@@ -27,7 +28,8 @@ export default function BodyMe() {
       className="hero"
       exit="exit"
       id="BodyMe-container">
-      <Navbar />
+      {/* <Navbar /> */}
+      <Navbarv2 />
       <SvgContainer showSvg={showSvg} />
       <div className="container" id="LeftBody">
         <motion.h1

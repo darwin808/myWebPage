@@ -1,8 +1,8 @@
 import React from "react";
-import Proj1_1 from "../p6.png";
+import Proj1_1 from "../p7.png";
 import { motion } from "framer-motion";
 
-function P6() {
+function P7() {
   return (
     <motion.div
       whileHover={{
@@ -14,23 +14,21 @@ function P6() {
       </div>
       <div className="card-content">
         <p id="projTitle" className="title is-size-2">
-          Ecommerce Website
+          Google Keep Clone
         </p>
         <p id="projDesc" className="subtitle is-size-5">
-          Ecommerce website that sell phones.
+          Google Keep Clone using MERN stack.
         </p>
         <p id="toolsused" className="is-size-6">
-          React.js Firebase Bulma
+          React.js Express.js Node.js MongoDb Tailwind
         </p>
       </div>
       <div className="links has-text-right mb-4 ">
-        <a href="https://github.com/darwin808/Ecommerce-react">
+        <a href="https://github.com/darwin808/Gnote-react">
           <i className="fab fa-github  fa-lg" id="profile-links"></i>
         </a>
 
-        <a
-          id="iconlinks"
-          href="https://5ff31102972712108bfd601c--iphonetraders.netlify.app/">
+        <a id="iconlinks" href="https://gnote-mern-1.herokuapp.com/">
           <i
             className="fas fa-external-link-alt fa-lg mr-4 ml-4"
             id="profile-links"></i>
@@ -40,4 +38,4 @@ function P6() {
   );
 }
 
-export default P6;
+export default P7;

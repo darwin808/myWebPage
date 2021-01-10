@@ -233,8 +233,6 @@ const Navbar = () => {
                 opacity: 1,
                 transition: {
                   delay: 6,
-                  duration: 1,
-                  type: "spring",
                   stiffness: 30,
                 },
               }}
