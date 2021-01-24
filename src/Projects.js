@@ -20,6 +20,8 @@ import P5 from "./assets/ProjectComponents.js/P5";
 import P6 from "./assets/ProjectComponents.js/P6";
 import P7 from "./assets/ProjectComponents.js/P7";
 import P8 from "./assets/ProjectComponents.js/P8";
+import P9 from "./assets/ProjectComponents.js/P9";
+
 import svgArrow from "./assets/svgArrow";
 
 export default function Projects() {
@@ -108,7 +110,9 @@ export default function Projects() {
             <div class="column is-4">
               <P3 />
             </div>
-            <div class="column is-4"></div>
+            <div class="column is-4">
+              <P9 />
+            </div>
           </div>
         </div>
       </div>
