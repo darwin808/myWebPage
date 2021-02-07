@@ -17,7 +17,7 @@ function P8() {
           Everlane website clone.
         </p>
         <p id="projDesc" className="subtitle is-size-5">
-          Everlane clone using React/Sass.
+          Everlane clone using React/Sass/GrapQL/Redux/Hasura.
         </p>
         <p id="toolsused" className="is-size-6">
           React.js SASS HTML5
@@ -30,7 +30,7 @@ function P8() {
 
         <a
           id="iconlinks"
-          href="https://6016a12513fd1729283efc28--everlane.netlify.app/">
+          href="https://601fdca8b9896fc2844c3fe9--everlane.netlify.app/">
           <i
             className="fas fa-external-link-alt fa-lg mr-4 ml-4"
             id="profile-links"></i>
